@@ -7,3 +7,12 @@ Repository contains various files along with metadata about them.A repository co
 index and head. The working directory contains all the source files. Staging area contains those files which we are 
 tracking, i.e. those files for which we are interested to store multiple versions. Staging area gives us the flexibility 
 of deciding which files need to be tracked.
+
+How can you use the staging area to make sure you have one commit per logical change?
+Even if i have modified several unrelated files in one go without committing, i can place only logically related ones 
+int the staging area at a time and commit. This way i will have one commit per logical change.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+When you want to experiment with a new idea, which you are not sure of, or make some changes to cater to a different 
+audience without loosing the latest committed version of the game, you can create a branch. Branches allow us to have 
+multiple forms of the same program. 
