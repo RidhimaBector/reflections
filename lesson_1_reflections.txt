@@ -1,0 +1,34 @@
+Viewing exactly those sections of two files which differ, in parallel helps us to easily and quickly pin point the 
+mistake we knowingly or unknowingly committed.  
+
+Sometimes an idea/algorithm can be implemented in different ways out of which the best approach might be difficult to see.
+In such cases we just go with any one of the implementation. Later on, if the outcome might is not satisfactory, we can
+go to the earlier version (the one we saved before implementing the idea/algo) and take another approach from there on.
+This is on of the ways in which easy access to entire history can be beneficial. 
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, 
+vs having versions automatically saved, like Google Docs does?
+Manually choosing when to commit ensures that each commit has a logical basis, and is executable. Automatic commits can 
+occur even while we are in the process of completing a statement and thus may not reflect a logical unit of change. 
+Automatic commits ensure that an important savepoint is not ignored or forgotten.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, 
+like Google Docs, treat each file separately?
+Git was made with code in mind. Very often than not, when we are working on a project we make multiple files which 
+are related to each other. Changes in one might require related changes in another, and hence saving multiple files 
+in one commit makes sense. On the other hand, when we make documents, we place all information that is related in a 
+single document, hence Google Docs treats each file separately.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+I made a hospital management system in java once. I want to modify it using git.
+
+How might using version control make you more confident to make changes that could break something?
+Since i know that all previous versions are safely stored in git, i can easily be adventurous and try out new things
+since i know that even if i write something that breaks up everything, i can go to a previous version and fix it.
+
+How can you use the commands git log and git diff to view the history of files?
+git log displays statistics regarding all the commits made in the repository. The statistics includes the commit id, 
+the commit message, author and date. git diff helps us to compare to commits. To find the number of statements added 
+and deleted in a particular commit, we can compare it to the previous commit (present below it in the log) using
+git diff commit_id_of_the_required_commit commit_id_of_the_previous_commit.
+
