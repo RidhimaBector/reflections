@@ -7,3 +7,15 @@ Why might you want to always pull changes manually rather than having Git automa
 up-to-date with your remote repository?
 -> I might be contributing to a huge project where I am only concerned with certain aspects of it. Cloning the entire 
 repository locally will be of no use to me.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+-> Branch is creating a commit such that there exists another commit with the same parent as the new commit. If a label 
+is not put on this new commit, it is likely to get lost if its commit id is not stored separately. Putting a label on 
+this commit is what making a branch essentially is. Branches are made in the same repository and are helpful when we 
+want to try a new feature or test a different implementation while keeping the master active.
+-> Cloning is the process of making a copy of an existing repository. The repositoy to be clones can be present on GitHub
+(remote repository) or maybe present on the users computer (local repository), while the copy (cloned repository) is 
+present locally. Cloning is usually done to have a local copy of the project. You can create, test and debug new features
+on your system, and then push the finished commits onto GitHub.
+-> Forking is the process of cloning a remote repository such that the clones repository is also present on GitHub. It is 
+used when the creaters of the original repository dont give you permission to make changes.
