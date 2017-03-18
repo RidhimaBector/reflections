@@ -16,3 +16,10 @@ What are some situations when branches would be helpful in keeping your history 
 When you want to experiment with a new idea, which you are not sure of, or make some changes to cater to a different 
 audience without loosing the latest committed version of the game, you can create a branch. Branches allow us to have 
 multiple forms of the same program. 
+
+How do the diagrams help you visualize the branch structure?
+Instead of carefully studying the common commits as well as the time of the various commits, diagramatic representation 
+allows us to see which branch was made when, and what work has been done on it thereafter. If certain commits are not
+reachable by any branch, and are themselves not a part of any branch, they will be lost unless there commit id is recorded
+somewhere, and even then some analyses will be required to understand who its parent is. If instead such particular 
+commits are present in the diagram, all this becomes very simple.
