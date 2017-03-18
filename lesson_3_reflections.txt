@@ -2,3 +2,8 @@ When would you want to use a remote repository rather than keeping all your work
 -> Other people are also working on the project.
 -> I access the code through different devices, and hence want the project to be stored on the web.
 -> I want to make my work public
+
+Why might you want to always pull changes manually rather than having Git automatically stay 
+up-to-date with your remote repository?
+-> I might be contributing to a huge project where I am only concerned with certain aspects of it. Cloning the entire 
+repository locally will be of no use to me.
