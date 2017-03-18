@@ -28,3 +28,8 @@ What is the result of merging two branches together? Why do we represent it in t
 When we merge two branches we are assentially creating a new commit which encorporates all the changes made in both 
 the branches. In the diagram we represent branches the way we do so that the parent of each commit, the commit upto which 
 multiple branches are same, the commits which are reachable by other commits etc are clearly visible.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Automatic merging saves a lot of time, since two commits might have a lot of separate lines of code that they have added,
+and opening a text editor to view each of those changes can be daunting, which is what must be done in manual merging. 
+However manual merging does help us in deciding which code to keep when two commits modify the same function.
