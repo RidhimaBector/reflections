@@ -19,3 +19,7 @@ present locally. Cloning is usually done to have a local copy of the project. Yo
 on your system, and then push the finished commits onto GitHub.
 -> Forking is the process of cloning a remote repository such that the clones repository is also present on GitHub. It is 
 used when the creaters of the original repository dont give you permission to make changes.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+-> Local copy allows us to run the code and test/debug/modify the code even if we dont have permission to modify the 
+online repository.
