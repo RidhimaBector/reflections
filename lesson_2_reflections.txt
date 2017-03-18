@@ -23,3 +23,8 @@ allows us to see which branch was made when, and what work has been done on it t
 reachable by any branch, and are themselves not a part of any branch, they will be lost unless there commit id is recorded
 somewhere, and even then some analyses will be required to understand who its parent is. If instead such particular 
 commits are present in the diagram, all this becomes very simple.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+When we merge two branches we are assentially creating a new commit which encorporates all the changes made in both 
+the branches. In the diagram we represent branches the way we do so that the parent of each commit, the commit upto which 
+multiple branches are same, the commits which are reachable by other commits etc are clearly visible.
