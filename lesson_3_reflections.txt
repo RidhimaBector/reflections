@@ -27,3 +27,11 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 -> Though Git allows me to have local copies, which i can view/update/run(if it is a code) , collaborating with other 
 people will be tough if there is no online platform where the code of the entire project resides, and people can freely 
 view, discuss and suggest changes, which is exactly what GitHub is.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach 
+have?
+-> I would like to create a separate branch when 
+    -> I am working on a new feature without wanting to risk the breakdown of the master.
+    -> I am creating a different version, while i want to keep the previous version active as well.
+    -> I am implementing an existing feature in a new way, and want to test it and discuss with people wthout actually 
+merging it with master.
