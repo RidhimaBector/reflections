@@ -21,5 +21,9 @@ on your system, and then push the finished commits onto GitHub.
 used when the creaters of the original repository dont give you permission to make changes.
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
--> Local copy allows us to run the code and test/debug/modify the code even if we dont have permission to modify the 
-online repository.
+-> Local copy allows us to run the code and test/debug/modify the code even if we dont have internet connection.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+-> Though Git allows me to have local copies, which i can view/update/run(if it is a code) , collaborating with other 
+people will be tough if there is no online platform where the code of the entire project resides, and people can freely 
+view, discuss and suggest changes, which is exactly what GitHub is.
